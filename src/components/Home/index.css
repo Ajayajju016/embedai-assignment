@@ -1,0 +1,28 @@
+/* card backgroung #ececee; */
+
+.user {
+  padding-left: 35px;
+}
+
+.name-search-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-container {
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+.search-input {
+  margin-top: 20px;
+  width: 100%;
+  padding: 16px;
+  border: none;
+  background-color: #ececee;
+  border-radius: 25px;
+}
+
+.heading {
+  padding: 0px 40px;
+}

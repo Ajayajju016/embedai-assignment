@@ -1,0 +1,45 @@
+.cat-con {
+  padding: 15px; /* Reduce padding for smaller screens */
+}
+
+.cat-inner-con {
+  background-color: #ececee;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+}
+
+.cat-inner-con p {
+  margin: 0;
+}
+
+.cat-img {
+  margin-right: 7px;
+  border-radius: 50%;
+  width: 40px; /* Adjust image width for smaller screens */
+  height: 40px; /* Adjust image height for smaller screens */
+}
+
+/* Adjust carousel item margin for smaller screens */
+.slick-slide > div {
+  margin: 0 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .slick-slide > div {
+    margin: 0 3px; /* Adjust margin for medium-sized screens */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .slick-slide > div {
+    margin: 0 2px; /* Further adjust margin for smaller screens */
+  }
+  .flex-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

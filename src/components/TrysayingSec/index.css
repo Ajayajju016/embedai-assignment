@@ -1,0 +1,50 @@
+.carousel-con {
+  padding: 15px; /* Reduce padding for smaller screens */
+}
+
+.card-carousel {
+  background-color: #ececee;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.para-con p {
+  margin: 0;
+}
+
+.try-sec-img {
+  border-radius: 50%;
+  width: 50px; /* Decrease image width for smaller screens */
+  height: 50px; /* Decrease image height for smaller screens */
+}
+
+.try-sec-button {
+  border: none;
+  background-color: #e0e0e0;
+  width: 100%;
+  padding: 7px;
+  border-radius: 8px;
+  margin: 4px 0;
+  text-align: left;
+}
+
+.try-card {
+  margin-bottom: 10px; /* Increase margin bottom for spacing between cards */
+}
+
+@media only screen and (max-width: 768px) {
+  .slick-slide > div {
+    margin: 0 5px; /* Adjust margin for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .slick-slide > div {
+    margin: 0 2px; /* Further adjust margin for even smaller screens */
+  }
+  .flex-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

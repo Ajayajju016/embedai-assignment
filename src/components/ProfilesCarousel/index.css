@@ -1,0 +1,67 @@
+.carousel-con {
+  padding: 15px; /* Reduce padding for smaller screens */
+  width: 100%;
+}
+
+.card-carousel {
+  background-color: #ececee;
+  padding: 10px; /* Reduce padding for smaller screens */
+  border-radius: 12px;
+}
+
+.slick-slide > div {
+  margin: 0 5px; /* Adjust margin for smaller screens */
+}
+
+.card-img {
+  width: 50px; /* Decrease image width for smaller screens */
+  height: 80px; /* Decrease image height for smaller screens */
+  margin-right: 5px; /* Reduce margin for smaller screens */
+  border-radius: 8px;
+}
+
+/* Adjust font size for smaller screens */
+.card-details p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Adjust arrow button size for smaller screens */
+.slick-prev,
+.slick-next {
+  width: 40px;
+  height: 40px;
+}
+
+/* Adjust arrow icon size for smaller screens */
+.slick-prev:before,
+.slick-next:before {
+  font-size: 16px;
+  color: #7b7b7b; /* Set color for the arrow icon */
+}
+
+.card-link {
+  text-decoration: none;
+  color: #7b7b7b;
+}
+
+.flex-card {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 768px) {
+  .slick-slide > div {
+    margin: 0 3px; /* Adjust margin for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .slick-slide > div {
+    margin: 0 2px; /* Further adjust margin for even smaller screens */
+  }
+  .flex-card {
+    display: flex;
+    flex-direction: column;
+  }
+}
